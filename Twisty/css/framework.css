@@ -1,0 +1,177 @@
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 20px;
+  width: 55px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.p-7 {
+  padding: 7px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-eee {
+  background-color: var(--eee-color);
+}
+
+.bg-main {
+  background-color: var(--main-color);
+}
+
+.c-white {
+  color: white;
+}
+
+.c-main {
+  color: black;
+}
+
+.bg-alt {
+  background-color: var(--alt-color);
+}
+
+.c-alt {
+  color: var(--alt-color);
+}
+
+.ph-shape {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.ph2-shape {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-abs {
+  position: absolute;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-co {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.around-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.start-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.f-g-1 {
+  flex-grow: 1;
+}
+
+.f-g-2 {
+  flex-grow: 2;
+}
+
+.f-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.rad-20 {
+  border-radius: 20px;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+
+.fs-5 {
+  font-size: 5px;
+}
+
+.fs-9 {
+  font-size: 9px;
+}
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-31 {
+  font-size: 31px;
+}
+.border {
+  border: var(--sec-border);
+}
+
+@media (max-width: 767px) {
+  .Mob-mb-10 {
+    margin-bottom: 10px;
+  }
+}
